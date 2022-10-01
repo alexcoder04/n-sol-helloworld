@@ -1,0 +1,9 @@
+Inherit: Base.TextField
+
+PosX: 30
+PosY: 70
+
+Label: "Internal clock: loading..."
+
+Update: |
+  self.Label = "Internal clock: " .. tostring(timer.getMilliSecCounter())

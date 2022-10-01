@@ -1,0 +1,7 @@
+Inherit: Base.Rectangle
+
+PosX: 200
+PosY: 50
+Width: 50
+Height: 25
+Fill: true

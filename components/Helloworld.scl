@@ -1,6 +1,6 @@
 Inherit: Base.TextField
 
-PosX: 70
+PosX: 30
 PosY: 50
 
 Label: Hello World
