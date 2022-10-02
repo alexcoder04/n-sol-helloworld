@@ -3,6 +3,6 @@ Inherit: Base.Rectangle
 PosX: 200
 PosY: 50
 Width: 50
-Height: 25
+Height: 40
 Fill: true
 Color: [200, 0, 0]

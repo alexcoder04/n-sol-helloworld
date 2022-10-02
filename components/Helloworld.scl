@@ -5,10 +5,13 @@ PosY: 50
 
 Label: "Hello World"
 Border: true
+Color: [10, 200, 50]
 
 OnClick: |
   if self.Label == "Hello World" then
     self.Label = "Hello Sol"
+    Library.Debug:Print("Button clicked")
   else
     self.Label = "Hello World"
+    Library.Debug:UnPrint()
   end
