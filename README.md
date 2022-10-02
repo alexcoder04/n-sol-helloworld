@@ -9,7 +9,7 @@ to demonstrate some basic things that can be done with Sol.
 
 ### `app.lua`
 
-App metadata (name, author).
+Main file containing app metadata (name, author, ...) and app elements (text, buttons, ...).
 
 ### `init.lua`
 
