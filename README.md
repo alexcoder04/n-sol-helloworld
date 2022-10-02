@@ -25,9 +25,8 @@ Here you have the ability to access raw nspired-Lua functions, like drawing with
 
 ### `components/`
 
-Custom GUI components, written in *Sol Components Language* (`.scl`),
-which is basically a superset of YAML, by extending existing base components.
-The created components are available in the Lua code, e. g. in `layout.lua`.
+Custom reuseable GUI app components written in YAML that can inherit from base components
+and from each other, available in the Lua code under `Components.Custom.*`.
 
 ### `res/`
 

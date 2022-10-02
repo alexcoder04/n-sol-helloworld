@@ -6,3 +6,6 @@ Width: 50
 Height: 40
 Fill: true
 Color: Library.Colors.Red
+
+OnClick: |
+  self.Hidden = true
