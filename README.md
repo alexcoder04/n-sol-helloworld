@@ -19,6 +19,10 @@ Runs at start of the application.
 
 Defines the used GUI components.
 
+### `hooks.lua`
+
+Here you have the ability to access raw nspired-Lua functions, like drawing with `gc`.
+
 ### `components/`
 
 Custom GUI components, written in *Sol Components Language* (`.scl`),
