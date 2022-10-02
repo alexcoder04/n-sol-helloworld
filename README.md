@@ -24,3 +24,11 @@ Defines the used GUI components.
 Custom GUI components, written in *Sol Components Language* (`.scl`),
 which is basically a superset of YAML, by extending existing base components.
 The created components are available in the Lua code, e. g. in `components.lua`.
+
+### `res/`
+
+Non-code resources, like images and data
+
+#### `res/data/menu.yml`
+
+Menu structure, written in YAML, that is compiled into a native nspireOS-menu.

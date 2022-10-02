@@ -5,4 +5,4 @@ PosY: 50
 Width: 50
 Height: 40
 Fill: true
-Color: [200, 0, 0]
+Color: Library.Colors.Red

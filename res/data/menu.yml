@@ -1,0 +1,8 @@
+
+ - Id: debug
+   Name: Debug
+   Submenues:
+    - Id: toggle_refresh
+      Name: Toggle redraw flashes
+      Function: |
+        Library.Debug.FlashRedraws = not Library.Debug.FlashRedraws
