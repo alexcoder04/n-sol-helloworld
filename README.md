@@ -23,7 +23,7 @@ Defines the used GUI components.
 
 Custom GUI components, written in *Sol Components Language* (`.scl`),
 which is basically a superset of YAML, by extending existing base components.
-The created components are available in the Lua code, e. g. in `components.lua`.
+The created components are available in the Lua code, e. g. in `layout.lua`.
 
 ### `res/`
 
