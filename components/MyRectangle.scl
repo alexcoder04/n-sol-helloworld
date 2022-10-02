@@ -5,3 +5,4 @@ PosY: 50
 Width: 50
 Height: 25
 Fill: true
+Color: [200, 0, 0]

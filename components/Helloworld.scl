@@ -3,4 +3,12 @@ Inherit: Base.TextField
 PosX: 30
 PosY: 50
 
-Label: Hello World
+Label: "Hello World"
+Border: true
+
+OnClick: |
+  if self.Label == "Hello World" then
+    self.Label = "Hello Sol"
+  else
+    self.Label = "Hello World"
+  end
