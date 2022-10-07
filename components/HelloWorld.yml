@@ -9,8 +9,8 @@ Border: true
 OnClick: |
   if self.Label == "Hello World" then
     self.Label = "Hello Sol"
-    Library.Debug:Print("Button clicked")
+    Lib.Debug:Print("Button clicked")
   else
     self.Label = "Hello World"
-    Library.Debug:UnPrint()
+    Lib.Debug:UnPrint()
   end

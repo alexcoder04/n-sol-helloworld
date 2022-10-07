@@ -1,4 +1,4 @@
 Inherit: Base.TextField
 
 Border: true
-Color: Library.Colors.Seagreen
+Color: Lib.Colors.Seagreen

@@ -1,4 +1,2 @@
 
-function init()
-    Library.Debug.FlashRedraws = true
-end
+Lib.Debug.FlashRedraws = true

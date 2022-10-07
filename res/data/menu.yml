@@ -5,4 +5,4 @@
     - Id: toggle_refresh
       Name: Toggle redraw flashes
       Function: |
-        Library.Debug.FlashRedraws = not Library.Debug.FlashRedraws
+        Lib.Debug.FlashRedraws = not Lib.Debug.FlashRedraws

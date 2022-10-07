@@ -5,7 +5,7 @@ PosY: 50
 Width: 50
 Height: 40
 Fill: true
-Color: Library.Colors.Red
+Color: Lib.Colors.Red
 
 OnClick: |
   self.Hidden = true
