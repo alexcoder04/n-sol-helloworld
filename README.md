@@ -2,7 +2,7 @@
 # n-sol-helloworld
 
 This is a basic Hello-World-Example application for the TI-nspire
-written using the [Sol framework](https://github.com/alexcoder04/sol)
+written using the [Sol framework](https://github.com/alexcoder04/sol-lib)
 to demonstrate some basic things that can be done with Sol.
 
 ## What is what?
@@ -14,10 +14,6 @@ Main file containing app metadata (name, author, ...) and app elements (text, bu
 ### `init.lua`
 
 Runs at start of the application.
-
-### `layout.lua`
-
-Defines the used GUI components.
 
 ### `hooks.lua`
 
