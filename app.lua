@@ -8,7 +8,8 @@ App.SolVersion = 0
 App:AddElement(Components.Custom.HelloWorld:new())
 App:AddElement(Components.Custom.Clock:new())
 App:AddElement(Components.Custom.MyRectangle:new())
-
-function on.charIn(c)
-    App.Data.Var.Char = c
-end
+myInput = Components.Base.InputField:new()
+myInput.PosX = 10
+myInput.PosY = 100
+myInput.Value = "m"
+App:AddElement(myInput)

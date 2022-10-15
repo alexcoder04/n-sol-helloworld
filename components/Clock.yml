@@ -7,3 +7,4 @@ Label: "Internal clock: loading..."
 
 Update: |
   self.Label = "Internal clock: " .. tostring(timer.getMilliSecCounter())
+  return true
