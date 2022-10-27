@@ -8,3 +8,7 @@ Label: "Internal clock: loading..."
 Update: |
   self.Label = "Internal clock: " .. tostring(timer.getMilliSecCounter())
   return true
+
+OnClick: |
+  Lib.Dialog.AddTextWindow("Window", "Hello Window")
+  Lib.Dialog.AddButton("Close", Lib.Dialog.CloseWindow)
